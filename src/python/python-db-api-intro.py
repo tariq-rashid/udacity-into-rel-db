@@ -7,6 +7,7 @@
 
 import sqlite3
 
+
 # Fetch some student records from the database.
 db = sqlite3.connect("students")
 c = db.cursor()
